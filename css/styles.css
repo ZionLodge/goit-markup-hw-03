@@ -13,10 +13,22 @@
   --modal-background-color: #fcfcfc;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: var(--white-background-color);
+}
+
+.header-container {
+  flex-grow: 1;
+  padding: 24px 156px 24px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
