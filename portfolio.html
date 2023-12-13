@@ -21,172 +21,203 @@
   </head>
   <body>
     <!-- Header content -->
+
     <header class="header-container">
-      <nav>
-        <a class="logo logo-blue link" href="./index.html"
-          >Web<span class="logo logo-dark">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="header-nav-link link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="header-nav-link link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="header-nav-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a class="address-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="address-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-content container class">
+        <nav class="header-navbar">
+          <a class="logo logo-blue link header-navbar-logo" href="./index.html"
+            >Web<span class="logo logo-dark link">Studio</span></a
+          >
+          <ul class="list header-navbar-menu">
+            <li>
+              <a
+                class="header-nav-link link header-navbar-link"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a
+                class="header-nav-link link header-navbar-link"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="header-nav-link link header-navbar-link" href=""
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list header-address-container">
+            <li>
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- Services section -->
-      <section>
-        <h1>h1</h1>
-        <!-- Filter buttons -->
-        <ul class="list">
-          <li>
-            <button class="portfolio-filter-button" type="button">All</button>
-          </li>
-          <li>
-            <button class="portfolio-filter-button" type="button">
-              Web Site
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-filter-button" type="button">App</button>
-          </li>
-          <li>
-            <button class="portfolio-filter-button" type="button">
-              Design
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-filter-button" type="button">
-              Marketing
-            </button>
-          </li>
-        </ul>
+      <section class="services-section-container">
+        <div class="container">
+          <h1 class="hide">h1</h1>
+          <!-- Filter buttons -->
+          <ul class="list filter-buttons-list">
+            <li>
+              <button class="portfolio-filter-button" type="button">All</button>
+            </li>
+            <li>
+              <button class="portfolio-filter-button" type="button">
+                Web Site
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-filter-button" type="button">App</button>
+            </li>
+            <li>
+              <button class="portfolio-filter-button" type="button">
+                Design
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-filter-button" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
 
-        <!-- Services content -->
-        <ul class="list">
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-banking-app.jpg"
-                alt="Banking"
-                width="360"
-              />
-              <h2 class="service-name">Banking App Interface Concept</h2>
-              <p class="service-category">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-payment.jpg"
-                alt="Payment"
-                width="360"
-              />
-              <h2 class="service-name">Cashless Payment</h2>
-              <p class="service-category">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-meditation-app.jpg"
-                alt="Meditation"
-                width="360"
-              />
-              <h2 class="service-name">Meditation App</h2>
-              <p class="service-category">App</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-taxi-service.jpg"
-                alt="Taxi"
-                width="360"
-              />
-              <h2 class="service-name">Taxi Service</h2>
-              <p class="service-category">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-screen-illustrations.jpg"
-                alt="Illustrations"
-                width="360"
-              />
-              <h2 class="service-name">Screen Illustrations</h2>
-              <p class="service-category">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-courses.jpg"
-                alt="Courses"
-                width="360"
-              />
-              <h2 class="service-name">Online Courses</h2>
-              <p class="service-category">Marketing</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-insta-stories.jpg"
-                alt="Insta stories"
-                width="360"
-              />
-              <h2 class="service-name">Instagram Stories Concept</h2>
-              <p class="service-category">Design</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-food.jpg"
-                alt=" Food"
-                width="360"
-              />
-              <h2 class="service-name">Organic Food</h2>
-              <p class="service-category">Web Site</p>
-            </a>
-          </li>
-          <li>
-            <a class="link" href="">
-              <img
-                src="./images/service-img-coffee.jpg"
-                alt="Coffee"
-                width="360"
-              />
-              <h2 class="service-name">Fresh Coffee</h2>
-              <p class="service-category">Web Site</p>
-            </a>
-          </li>
-        </ul>
+          <!-- Services content -->
+          <ul class="list services-content-container">
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-banking-app.jpg"
+                  alt="Banking"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Banking App Interface Concept</h2>
+                  <p class="service-category">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-payment.jpg"
+                  alt="Payment"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Cashless Payment</h2>
+                  <p class="service-category">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-meditation-app.jpg"
+                  alt="Meditation"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Meditation App</h2>
+                  <p class="service-category">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-taxi-service.jpg"
+                  alt="Taxi"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Taxi Service</h2>
+                  <p class="service-category">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-screen-illustrations.jpg"
+                  alt="Illustrations"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Screen Illustrations</h2>
+                  <p class="service-category">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-courses.jpg"
+                  alt="Courses"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Online Courses</h2>
+                  <p class="service-category">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-insta-stories.jpg"
+                  alt="Insta stories"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Instagram Stories Concept</h2>
+                  <p class="service-category">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-food.jpg"
+                  alt=" Food"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Organic Food</h2>
+                  <p class="service-category">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-content-ul-li">
+              <a class="link" href="">
+                <img
+                  src="./images/service-img-coffee.jpg"
+                  alt="Coffee"
+                  width="360"
+                />
+                <div class="services-content-div">
+                  <h2 class="service-name">Fresh Coffee</h2>
+                  <p class="service-category">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
