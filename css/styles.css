@@ -33,7 +33,7 @@ body {
 }
 
 .header-container {
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-content {
