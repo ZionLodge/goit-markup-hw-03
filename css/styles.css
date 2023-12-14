@@ -176,7 +176,8 @@ img {
 }
 
 .we-offer-element {
-  flex-basis: calc((100% - 72px) / 4);
+  width: 100%;
+  min-width: 264px;
 }
 
 .we-offer-header {
